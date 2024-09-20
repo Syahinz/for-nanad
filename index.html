@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>for Nanad</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <audio autoplay>
+      <source
+        src="./From The Start - Laufey  Instrumental.mp3"
+        type="audio/mp3"
+      />
+    </audio>
+    <div class="container">
+      <div class="envelope-wrapper">
+        <div class="envelope">
+          <div class="letter">
+            <div class="text">
+              <strong>Dear Nanad.</strong>
+              <p>
+                If you read this i just want you to know that i love you. i
+                don't know why?, why my mind i always think about you even when
+                i'm so bussy with my work. can you be my gf? maybe is to fast or
+                late for me to confessing this to you(idk). if you accept you
+                will not regret it
+              </p>
+              <strong>from HIN</strong>
+            </div>
+          </div>
+        </div>
+        <div class="heart">
+          <img src="200px-Cinnamoroll.png" alt="" />
+        </div>
+      </div>
+    </div>
+    <script>
+      const envelope = document.querySelector(".envelope-wrapper");
+      envelope.addEventListener("click", () => {
+        envelope.classList.toggle("flap");
+      });
+    </script>
+  </body>
+</html>
